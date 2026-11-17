@@ -1,0 +1,257 @@
+{
+  "Quais são os principais problemas relatados pelos clientes em suas avaliações?": {
+    "avaliacoes_no_conjunto": 244,
+    "temas": [
+      {
+        "tema": "Tema A",
+        "tamanho": 61,
+        "share": 0.25,
+        "palavras": [
+          "nao",
+          "produto",
+          "entrega",
+          "problema",
+          "errado"
+        ],
+        "exemplos": [
+          "Infelizmente já comprei muitos produtos mais dessa vez me sinto insatisfeito com a demora da entrega é com a c",
+          "Comprei um produto e entregaram outro difetente do que pedi..... E mais solicitei a devolucao ou troca e ate a"
+        ]
+      },
+      {
+        "tema": "Tema B",
+        "tamanho": 55,
+        "share": 0.225,
+        "palavras": [
+          "falta",
+          "nao",
+          "respeito",
+          "produto",
+          "consumidor"
+        ],
+        "exemplos": [
+          "Não entrega do produto. Falta de respeito com o cliente.",
+          "Entrega do produto. Falta de atenção e respeito com cliente"
+        ]
+      },
+      {
+        "tema": "Tema C",
+        "tamanho": 42,
+        "share": 0.172,
+        "palavras": [
+          "entrega",
+          "nao",
+          "correio",
+          "demora",
+          "produto"
+        ],
+        "exemplos": [
+          "muita demora na entrega, não dão satisfação",
+          "Muita demora na entrega"
+        ]
+      },
+      {
+        "tema": "Tema D",
+        "tamanho": 36,
+        "share": 0.148,
+        "palavras": [
+          "nao",
+          "avaliar",
+          "produto",
+          "posso",
+          "ainda"
+        ],
+        "exemplos": [
+          "Produto não entregue. Produto não chegou.não posso avaliar",
+          "Nenhuma. Não recebi meu produto ainda!!! Não tem como avaliar"
+        ]
+      },
+      {
+        "tema": "Tema E",
+        "tamanho": 27,
+        "share": 0.111,
+        "palavras": [
+          "produto",
+          "nao",
+          "veio",
+          "qualidade",
+          "providencia"
+        ],
+        "exemplos": [
+          "produto de péssima qualid. Já solicitei a troca do produto, por defeito, informação diferente do que veio, ava",
+          "Insatisfeita. Produto recebido com riscos, descrição do produto não condiz com a realidade."
+        ]
+      },
+      {
+        "tema": "Tema F",
+        "tamanho": 23,
+        "share": 0.094,
+        "palavras": [
+          "qualidade",
+          "atendimento",
+          "tenho",
+          "sou",
+          "nao"
+        ],
+        "exemplos": [
+          "Totalmente responsáveis, produto entregue, informação dada ao cliente, preocupação com o cliente. Recomendo.",
+          "excelente!!!! Gosto do respeito e preocupação que vocês tem com os clientes! qualidade e agilidade"
+        ]
+      }
+    ]
+  },
+  "Quais padrões podem ser identificados nas avaliações de clientes insatisfeitos?": {
+    "avaliacoes_no_conjunto": 43,
+    "temas": [
+      {
+        "tema": "Tema A",
+        "tamanho": 17,
+        "share": 0.395,
+        "palavras": [
+          "avaliar",
+          "produto",
+          "nao",
+          "posso",
+          "ainda"
+        ],
+        "exemplos": [
+          "Como vou avaliar um.produto que não recebi ainda",
+          "Avaliar o quê se ainda não recebi o produto?"
+        ]
+      },
+      {
+        "tema": "Tema B",
+        "tamanho": 14,
+        "share": 0.326,
+        "palavras": [
+          "falta",
+          "compromisso",
+          "respeito",
+          "satisfacao",
+          "consideracao"
+        ],
+        "exemplos": [
+          "Entrega do produto. Falta de atenção e respeito com cliente",
+          "Falta de consideração com o cliente ."
+        ]
+      },
+      {
+        "tema": "Tema C",
+        "tamanho": 12,
+        "share": 0.279,
+        "palavras": [
+          "nao",
+          "insatisfacao",
+          "produto",
+          "qualidade",
+          "apena"
+        ],
+        "exemplos": [
+          "Insatisfação. Não estou satisfeita com a qualidade do produto",
+          "Insatisfação. Meu produto veio faltando com 5 quantidades e apenas recebi 4 e ninguém me atende no sac ou me d"
+        ]
+      }
+    ]
+  },
+  "O que os clientes dizem sobre a qualidade dos produtos?": {
+    "avaliacoes_no_conjunto": 600,
+    "temas": [
+      {
+        "tema": "Tema A",
+        "tamanho": 146,
+        "share": 0.243,
+        "palavras": [
+          "produto",
+          "qualidade",
+          "otima",
+          "recomendo",
+          "excelente"
+        ],
+        "exemplos": [
+          "Ótimo produto. Produto de boa qualidade.",
+          "Otimo. Produto de excelente qualidade."
+        ]
+      },
+      {
+        "tema": "Tema B",
+        "tamanho": 137,
+        "share": 0.228,
+        "palavras": [
+          "prazo",
+          "produto",
+          "qualidade",
+          "entrega",
+          "entregue"
+        ],
+        "exemplos": [
+          "Produto de ótima qualidade e entregue dentro do prazo.",
+          "Produto de boa qualidade, entrega no prazo."
+        ]
+      },
+      {
+        "tema": "Tema C",
+        "tamanho": 124,
+        "share": 0.207,
+        "palavras": [
+          "produto",
+          "qualidade",
+          "boa",
+          "otima",
+          "excelente"
+        ],
+        "exemplos": [
+          "Produto de boa qualidade",
+          "Produto de ótima qualidade"
+        ]
+      },
+      {
+        "tema": "Tema D",
+        "tamanho": 89,
+        "share": 0.148,
+        "palavras": [
+          "produto",
+          "qualidade",
+          "sempre",
+          "excelente",
+          "atendimento"
+        ],
+        "exemplos": [
+          "Ótimo e recomendado, prazo cumprido,produtos de qualidade e atendimento excelente.",
+          "produto de otima qualidade e atendimento exelente"
+        ]
+      },
+      {
+        "tema": "Tema E",
+        "tamanho": 64,
+        "share": 0.107,
+        "palavras": [
+          "rapida",
+          "produto",
+          "qualidade",
+          "entrega",
+          "otima"
+        ],
+        "exemplos": [
+          "Produto de qualidade e entrega rápida.",
+          "Produto de ótima qualidade e entrega rápida."
+        ]
+      },
+      {
+        "tema": "Tema F",
+        "tamanho": 40,
+        "share": 0.067,
+        "palavras": [
+          "produto",
+          "qualidade",
+          "pessima",
+          "nao",
+          "baixa"
+        ],
+        "exemplos": [
+          "O produto nao tem boa qualidade.",
+          "Qualidade do produto deixa a desejar"
+        ]
+      }
+    ]
+  }
+}

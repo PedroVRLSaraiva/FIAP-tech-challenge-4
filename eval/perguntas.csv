@@ -1,0 +1,29 @@
+id,pergunta,tipo,esperado,filtro_esperado
+1,Quais são os principais problemas relatados pelos clientes em suas avaliações?,enunciado,responde,
+2,O que os clientes relatam sobre problemas relacionados à entrega?,enunciado,responde,
+3,Quais aspectos da experiência de compra são mais elogiados pelos clientes?,enunciado,responde,
+4,Quais padrões podem ser identificados nas avaliações de clientes insatisfeitos?,enunciado,responde,"{""nota_max"": 2}"
+5,Quais avaliações sustentam a conclusão de que existem problemas recorrentes relacionados ao prazo de entrega?,enunciado,responde,
+6,Há reclamações sobre produtos que chegaram quebrados ou danificados?,tema,responde,
+7,O que os clientes dizem sobre a qualidade dos produtos?,tema,responde,
+8,Existem reclamações sobre o atendimento ou a falta de resposta da loja?,tema,responde,
+9,Clientes reclamam de receber um produto diferente do anunciado?,tema,responde,
+10,O que os clientes dizem sobre a embalagem dos produtos?,tema,responde,
+11,Os clientes elogiam a rapidez da entrega?,tema,responde,
+12,Quais problemas aparecem quando o produto nunca chegou?,tema,responde,
+13,Os clientes reclamam de falta de itens no pedido?,tema,responde,
+14,Qual a capital da França?,fora_de_escopo,recusa,
+15,Como funciona um motor de carro?,fora_de_escopo,recusa,
+16,Quem ganhou a Copa do Mundo de 2018?,fora_de_escopo,recusa,
+17,Qual a receita de bolo de chocolate?,fora_de_escopo,recusa,
+18,Os clientes mencionam problemas com o aplicativo de carros elétricos da Tesla?,sem_evidencia,recusa,
+19,O que os clientes dizem sobre o serviço de assinatura de streaming?,sem_evidencia,recusa,
+20,Quais reclamações existem sobre pagamentos em criptomoedas?,sem_evidencia,recusa,
+21,Quais os principais problemas relatados nas avaliações com nota baixa?,filtro,responde,"{""nota_max"": 2}"
+22,O que os clientes elogiam nas avaliações com nota alta?,filtro,responde,"{""nota_min"": 4}"
+23,Quais problemas aparecem nos pedidos entregues com atraso?,filtro,responde,"{""entregue_atrasado"": true}"
+24,O que os clientes dizem sobre os produtos de telefonia?,filtro,responde,"{""categorias"": [""telephony""]}"
+25,Quais reclamações aparecem nas compras feitas em 2017?,filtro,responde,"{""periodo_inicio"": 201701, ""periodo_fim"": 201712}"
+26,Quais problemas de móveis e decoração aparecem nas avaliações negativas?,filtro,responde,"{""nota_max"": 2, ""categorias"": [""furniture_decor""]}"
+27,O que os clientes relatam sobre eletrônicos entregues com atraso?,filtro,responde,"{""categorias"": [""electronics""], ""entregue_atrasado"": true}"
+28,Quais elogios aparecem nas compras do primeiro semestre de 2018?,filtro,responde,"{""periodo_inicio"": 201801, ""periodo_fim"": 201806}"
