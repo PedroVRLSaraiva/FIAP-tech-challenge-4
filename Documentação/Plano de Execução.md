@@ -2,11 +2,11 @@
 
 ## Status do plano
 
-Legenda: `- [x]` feito e verificado; `- [ ]` pendente. Quando um item ficou **parcial** ou diferente do previsto, a nota está na própria linha. Requisitos do site e fases 0 a 8: **107 de 120 itens concluídos**. Checklist final de entrega (seção 9): **5 de 8**. Seção 6 (segundo momento): **25 de 29 itens aplicados**.
+Legenda: `- [x]` feito e verificado; `- [ ]` pendente. Quando um item ficou **parcial** ou diferente do previsto, a nota está na própria linha. Requisitos do site e fases 0 a 8: **110 de 120 itens concluídos**. Checklist final de entrega (seção 9): **6 de 8**. Seção 6 (segundo momento): **25 de 29 itens aplicados**.
 
 | Fase | Situação | O que falta |
 |---|---|---|
-| 0. Setup | Quase concluída | Publicar no GitHub (o repositório git local já existe, com o commit inicial) |
+| 0. Setup | Concluída | |
 | 1. Base | Concluída | |
 | 2. Base vetorial | Concluída | |
 | 3. Pipeline RAG | Concluída | |
@@ -14,7 +14,7 @@ Legenda: `- [x]` feito e verificado; `- [ ]` pendente. Quando um item ficou **pa
 | 5. Falta de evidência | Concluída com ressalvas | Gráfico da calibração; testar ponta a ponta as 2 perguntas de calibração que passam pelo gate (clima e futebol) |
 | 6. Site | Implementado e testado no navegador (inclui filtros, temas e exportação CSV) | Clone limpo; as 5 perguntas do enunciado no navegador; teste com um colega |
 | 7. Avaliação | Rodada antes e depois (28 perguntas), com pré-avaliação | A equipe conferir precisão@k, fidelidade e acerto da recusa; listar os ajustes feitos |
-| 8. Entregáveis | Em andamento | Parágrafo de problema de negócio no README; repositório público; verificação do histórico; vídeo |
+| 8. Entregáveis | Em andamento | Parágrafo de problema de negócio no README; vídeo |
 | Seção 6 (opcional) | **Aplicada**, exceto 6.A reescrita da query e 6.F Databricks (a equipe decidiu não fazer) | Itens parciais: precisão@k manual das perguntas com filtro, sem filtro (6.B); `top_k` padrão (6.E) |
 
 **Mudanças de escopo registradas:** reescrita da query pelo LLM retirada do obrigatório (seção 6.A); textos curtos descartados por trazerem poucos insights sobre a opinião real (Fase 1.4); gate de score calibrado para ser permissivo (Fase 5.3); seção 6 aplicada, exceto a reescrita da query e a trilha Databricks. Resultados antes e depois em `Documentação/Comparativo antes e depois.md`.
@@ -105,7 +105,7 @@ Todos os parâmetros ajustáveis (modelo, `top_k`, limiares, `MIN_DOCS`, tamanho
 
 **Objetivo:** ambiente reprodutível e dados no disco.
 
-- [ ] Criar o repositório público no GitHub com a estrutura da seção 4. **Parcial:** repositório git local criado (branch `main`, commit inicial com 48 arquivos, validado com um `git clone`). Nome definido: `FIAP-tech-challenge-4`. Falta criar o repositório público no GitHub e publicar.
+- [x] Criar o repositório público no GitHub com a estrutura da seção 4. Publicado em https://github.com/PedroVRLSaraiva/FIAP-tech-challenge-4 (público, branch `main`, 46 arquivos).
 - [x] Criar o venv e o `requirements.txt` com versões fixadas: `pandas`, `kagglehub`, `chromadb`, `streamlit`, `openai`, `python-dotenv`, `pytest`.
 - [x] Preencher o `.gitignore` (`data/`, `.env`, `chroma_db/`, `.cache/`) e criar o `.env.example` com `OPENAI_API_KEY`, `LLM_MODEL` e `EMBEDDING_MODEL`.
 - [x] Colocar a chave da OpenAI no `.env` local (nunca commitar).
@@ -336,7 +336,7 @@ Todos os parâmetros ajustáveis (modelo, `top_k`, limiares, `MIN_DOCS`, tamanho
 
 **8.2 Repositório**
 
-- [ ] Repositório público, com estrutura organizada conforme a seção 4. **Parcial:** estrutura pronta e versionada localmente; falta publicar no GitHub.
+- [x] Repositório público, com estrutura organizada conforme a seção 4. https://github.com/PedroVRLSaraiva/FIAP-tech-challenge-4
 - [x] Nenhum segredo commitado (verificar o histórico). Verificado no histórico local (1 commit): 0 ocorrências da chave e do padrão `sk-`; `.env` fica fora do git. Repetir a varredura se houver novos commits antes de publicar.
 - [x] `data/` e `chroma_db/` ignorados, com instruções para regenerar.
 - [ ] Clone limpo → seguir o README → site funcionando. **Parcial:** ver Fase 6.4; o passo a passo detalhado está na seção Reprodutibilidade do README.
@@ -453,7 +453,7 @@ A precisão@10 da avaliação (0,95) mede relevância, não diversidade nem repr
 
 ## 9. Checklist final de entrega
 
-- [ ] Repositório público no GitHub com código, README e estrutura organizada. **Parcial:** repositório local criado; falta publicar no GitHub.
+- [x] Repositório público no GitHub com código, README e estrutura organizada. https://github.com/PedroVRLSaraiva/FIAP-tech-challenge-4
 - [ ] `python build_index.py` e `streamlit run app.py` funcionam a partir de um clone limpo. **Parcial:** validado com o cache de embeddings e o `AppTest` (ver Fase 6.4); falta a geração real de embeddings e o uso no navegador.
 - [x] Site responde às 5 perguntas do enunciado com citações e evidências.
 - [x] Perguntas sem evidência e fora de escopo são recusadas.
