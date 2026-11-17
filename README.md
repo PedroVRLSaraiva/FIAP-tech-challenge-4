@@ -4,6 +4,8 @@ Site de busca em linguagem natural sobre as avaliações de clientes da base *Br
 
 > Projeto do Tech Challenge, Fase 4 (FIAP). Os números deste documento vêm de execuções reais sobre a base completa. O comparativo completo do antes e depois está em [`Documentação/Comparativo antes e depois.md`](Documentação/Comparativo%20antes%20e%20depois.md).
 
+**Vídeo de apresentação:** [https://youtu.be/lLO5GCiOO58](https://youtu.be/lLO5GCiOO58)
+
 ## Arquitetura
 
 ```

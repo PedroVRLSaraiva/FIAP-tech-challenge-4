@@ -14,7 +14,7 @@ Legenda: `- [x]` feito e verificado; `- [ ]` pendente. Quando um item ficou **pa
 | 5. Falta de evidência | Concluída com ressalvas | Gráfico da calibração; testar ponta a ponta as 2 perguntas de calibração que passam pelo gate (clima e futebol) |
 | 6. Site | Implementado e testado no navegador (inclui filtros, temas e exportação CSV) | Clone limpo; as 5 perguntas do enunciado no navegador; teste com um colega |
 | 7. Avaliação | Rodada antes e depois (28 perguntas), com pré-avaliação | A equipe conferir precisão@k, fidelidade e acerto da recusa; listar os ajustes feitos |
-| 8. Entregáveis | Em andamento | Parágrafo de problema de negócio no README; vídeo |
+| 8. Entregáveis | Em andamento | Parágrafo de problema de negócio no README; **cortar o vídeo de 7min10s para até 7min**; anexar o link na entrega |
 | Seção 6 (opcional) | **Aplicada**, exceto 6.A reescrita da query e 6.F Databricks (a equipe decidiu não fazer) | Itens parciais: precisão@k manual das perguntas com filtro, sem filtro (6.B); `top_k` padrão (6.E) |
 
 **Mudanças de escopo registradas:** reescrita da query pelo LLM retirada do obrigatório (seção 6.A); textos curtos descartados por trazerem poucos insights sobre a opinião real (Fase 1.4); gate de score calibrado para ser permissivo (Fase 5.3); seção 6 aplicada, exceto a reescrita da query e a trilha Databricks. Resultados antes e depois em `Documentação/Comparativo antes e depois.md`.
@@ -351,10 +351,10 @@ Todos os parâmetros ajustáveis (modelo, `top_k`, limiares, `MIN_DOCS`, tamanho
 | 4 | Demo no site: duas perguntas com evidências, uma sem resposta, e o painel de debug | ~2,5 min |
 | 5 | Desafios, decisões e limitações | ~1 min |
 
-- [ ] Roteiro escrito antes de gravar. **Pendente.**
-- [ ] Mostrar o painel "Como a resposta foi gerada" na demo. **Pendente.**
-- [ ] Mostrar explicitamente a recusa de uma pergunta sem evidência. **Pendente.**
-- [ ] Conferir que a duração total ficou em até 7 minutos. **Pendente.**
+- [ ] Roteiro escrito antes de gravar. **Vídeo publicado; conferência da equipe** (o conteúdo do vídeo não foi verificado aqui).
+- [ ] Mostrar o painel "Como a resposta foi gerada" na demo. **Vídeo publicado; conferência da equipe** (o conteúdo do vídeo não foi verificado aqui).
+- [ ] Mostrar explicitamente a recusa de uma pergunta sem evidência. **Vídeo publicado; conferência da equipe** (o conteúdo do vídeo não foi verificado aqui).
+- [ ] Conferir que a duração total ficou em até 7 minutos. **Não atendido:** o vídeo (https://youtu.be/lLO5GCiOO58) tem 7min10s segundo a página pública do YouTube, 10 s acima do limite. Cortar ao menos 10 s antes de entregar.
 
 ## 6. Segundo momento (opcional, fora do escopo atual)
 
@@ -460,4 +460,4 @@ A precisão@10 da avaliação (0,95) mede relevância, não diversidade nem repr
 - [x] `eval/results.csv` e a tabela de avaliação incluídos no README.
 - [x] `pytest` passando.
 - [x] Nenhum segredo no repositório. Verificado (ver Fase 8.2).
-- [ ] Vídeo de até 7 minutos gravado e o link anexado à entrega. **Pendente.**
+- [ ] Vídeo de até 7 minutos gravado e o link anexado à entrega. **Parcial:** vídeo publicado e link no README (https://youtu.be/lLO5GCiOO58), mas com 7min10s, acima do limite de 7 minutos. Falta o corte e anexar o link na entrega.
